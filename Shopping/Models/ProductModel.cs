@@ -19,5 +19,6 @@ namespace Shopping.Models
         public CateGoryModel CateGory { get; set; }
         public BrandModel Brand { get; set; }
 
+        public string Image { get; set; }
     }
 }

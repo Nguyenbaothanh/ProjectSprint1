@@ -3,9 +3,9 @@ using Shopping.Models;
 
 namespace Shopping.Repository
 {
-	public class DataContex : DbContext
+	public class DataContext : DbContext
 	{
-		public DataContex(DbContextOptions<DbContext> options) :base(options)
+		public DataContext(DbContextOptions<DataContext> options) :base(options)
 		{
 
 		}

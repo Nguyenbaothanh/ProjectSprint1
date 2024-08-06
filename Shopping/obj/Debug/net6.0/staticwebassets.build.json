@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZL9OtsG1DSi5beXh7fUssKizjyaOudwm8mGvyBNOnxM=",
+  "Hash": "WfBCMZW9TiAZfhqK0NwkQRJXvZa93mMmXh7sKV3qwqQ=",
   "Source": "Shopping",
   "BasePath": "_content/Shopping",
   "Mode": "Default",
@@ -185,6 +185,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\1.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "images/1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\2.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "images/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
       "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\girl1.jpg",
