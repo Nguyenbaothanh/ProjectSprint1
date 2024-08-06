@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Shopping",
+    "\\Shopping\\obj",
+    "\\Shopping\\obj\\Release",
+    "\\Shopping\\obj\\Release\\net6.0",
+    "\\Shopping\\obj\\Release\\net6.0\\ref",
+    "\\Shopping\\wwwroot",
+    "\\Shopping\\wwwroot\\css",
+    "\\Shopping\\wwwroot\\images",
+    "\\Shopping\\wwwroot\\js",
+    "\\Shopping\\wwwroot\\lib"
+  ],
+  "SelectedNode": "\\Shopping\\Shopping.csproj.user",
+  "PreviewInSolutionExplorer": false
+}
