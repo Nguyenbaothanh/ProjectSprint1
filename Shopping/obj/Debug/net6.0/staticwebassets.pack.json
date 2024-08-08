@@ -49,6 +49,22 @@
       "PackagePath": "staticwebassets\\images\\girl1.jpg"
     },
     {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\iframe1.jpg",
+      "PackagePath": "staticwebassets\\images\\iframe1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\iframe2.jpg",
+      "PackagePath": "staticwebassets\\images\\iframe2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\iframe3.jpg",
+      "PackagePath": "staticwebassets\\images\\iframe3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\images\\iframe4.jpg",
+      "PackagePath": "staticwebassets\\images\\iframe4.jpg"
+    },
+    {
       "Id": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
