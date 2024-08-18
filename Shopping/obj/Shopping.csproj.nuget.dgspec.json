@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\Shopping.csproj": {}
+    "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\Shopping.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\Shopping.csproj": {
+    "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\Shopping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\Shopping.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\Shopping.csproj",
         "projectName": "Shopping",
-        "projectPath": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\Shopping.csproj",
+        "projectPath": "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\Shopping.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\obj\\",
+        "outputPath": "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.32, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [

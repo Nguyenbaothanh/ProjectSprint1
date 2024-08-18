@@ -60,7 +60,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+							<a href="index.cshtml"><img src="~/images/home/logo.png" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -89,6 +89,9 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
+								<li><a href="#"><i class="fa fa-user"></i> Account</a></li>
+								<li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
 								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
 								<li><a href="login.html"><i class="fa fa-lock"></i> Login</a></li>
 							</ul>
@@ -117,21 +120,32 @@
 								<li class="dropdown">
 									<a href="#">Shop<i class="fa fa-angle-down"></i></a>
 									<ul role="menu" class="sub-menu">
-										<li><a >Categories</a></li>
+										<li><a	asp-action="Index" asp-controller="CateGory">Categories</a></li>
 										<li><a >Product Details</a></li>
 										<li><a >Checkout</a></li>
-										<li><a >Cart</a></li>
+										<li><a asp-controller ="Cart">Cart</a></li>
 										<li><a >Login</a></li>
 									</ul>
 								</li>
+								<li class="dropdown">
+									<a href="#">Blog<i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu">
+										<li><a href="blog.html">Blog List</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+									</ul>
+								</li>
+								<li><a href="404.html">404</a></li>
 								<li><a href="contact-us.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-3">
+						<form asp-controller="Product" asp-action="Search" method="post">
 						<div class="search_box pull-right">
-							<input type="text" placeholder="Search" />
+							<input type="text" placeholder="Search" name=" searchTerm" />
+							<button class="btn btn-warning" type="submit">Search</button>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -154,8 +168,8 @@
 							<div class="item active">
 								<div class="col-sm-6">
 									<h1><span>E</span>-SHOPPER</h1>
-									<h2>Trang bán hàng số 1 Việt Nam</h2>
-									<p>Trang bán hàng trãi dài trên nhiều quốc gia </p>
+									<h2>Laptop Store</h2>
+									<p>Shop chuyên cung cấp những dòng laptop chính hãng </p>
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
 								<div class="col-sm-6">
@@ -164,14 +178,30 @@
 								</div>
 							</div>
 							<div class="item">
-								
+								<div class="col-sm-6">
+									<h1><span>E</span>-SHOPPER</h1>
+									<h2>100% Responsive Design</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
 								<div class="col-sm-6">
 									<img src="images/home/girl2.jpg" class="girl img-responsive" alt="" />
 									<img src="images/home/pricing.png" class="pricing" alt="" />
 								</div>
 							</div>
 
-						
+							<div class="item">
+								<div class="col-sm-6">
+									<h1><span>E</span>-SHOPPER</h1>
+									<h2>Free Ecommerce Template</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+									<button type="button" class="btn btn-default get">Get it now</button>
+								</div>
+								<div class="col-sm-6">
+									<img src="images/home/girl3.jpg" class="girl img-responsive" alt="" />
+									<img src="images/home/pricing.png" class="pricing" alt="" />
+								</div>
+							</div>
 
 						</div>
 
@@ -212,13 +242,13 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="~/images/iframe1.jpg" alt="" />
+										<img src="~/images/home/iframe1.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Laptop Dell 2024</p>
+								<p>Circle of Hands</p>
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
@@ -227,13 +257,13 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="~/images/iframe2.jpg" alt="" />
+										<img src="images/home/iframe2.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Laptop Dell</p>
+								<p>Circle of Hands</p>
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
@@ -242,14 +272,14 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="~/images/iframe3.jpg" alt="" />
+										<img src="images/home/iframe3.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Laptop Dell 2023</p>
-								<h2>08/07/2024</h2>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
 							</div>
 						</div>
 
@@ -257,13 +287,13 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="~/images/iframe4.jpg" alt="" />
+										<img src="images/home/iframe4.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
-								<p>Asus VioBook</p>
+								<p>Circle of Hands</p>
 								<h2>24 DEC 2014</h2>
 							</div>
 						</div>

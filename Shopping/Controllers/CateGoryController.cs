@@ -5,16 +5,16 @@ using Shopping.Repository;
 
 namespace Shopping.Controllers
 {
-    public class CateGoryController : Controller 
+    public class CategoryController : Controller 
     {   
         private readonly DataContext _dataContext;
-        public CateGoryController(DataContext context) 
+        public CategoryController(DataContext context) 
         {
             _dataContext = context;
         }
         public async Task<IActionResult> Index(string Slug = "")
         {
-            CateGoryModel cateGory = _dataContext.CateGories.Where(c => c.Slug == Slug).FirstOrDefault();
+            CategoryModel cateGory = _dataContext.CateGories.Where(c => c.Slug == Slug).FirstOrDefault();
             if (cateGory == null) return RedirectToAction("Index");
             var productsByCategory = _dataContext.Products.Where(c => c.CategoryId == cateGory.Id);
             return View(await productsByCategory.OrderByDescending(p => p.CategoryId).ToListAsync());

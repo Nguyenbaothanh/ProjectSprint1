@@ -2,7 +2,7 @@
 
 namespace Shopping.Models
 {
-    public class CateGoryModel
+    public class CategoryModel
     {
         [Key]
         public int Id { get; set; }

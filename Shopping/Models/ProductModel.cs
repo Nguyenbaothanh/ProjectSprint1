@@ -16,7 +16,7 @@ namespace Shopping.Models
 		public decimal Price { get; set; }
         public int BrandId { get; set; }
         public int CategoryId { get; set; }
-        public CateGoryModel CateGory { get; set; }
+        public CategoryModel CateGory { get; set; }
         public BrandModel Brand { get; set; }
 
         public string Image { get; set; }
