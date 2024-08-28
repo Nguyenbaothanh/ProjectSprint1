@@ -44,6 +44,7 @@ namespace Shopping.Controllers
             }
             HttpContext.Session.SetJson("Cart", cart);
 
+            TempData["success"] = "Add Item to Cart Successfully";
             return Redirect(Request.Headers["Referer"].ToString());
         }
         public async Task<IActionResult> Decrease(int Id)
@@ -69,8 +70,9 @@ namespace Shopping.Controllers
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
+			TempData["success"] = "Decrease Item quantity to Cart Successfully";
 
-            return RedirectToAction("Index");
+			return RedirectToAction("Index");
         }
         public async Task<IActionResult> Increase(int Id)
         {
@@ -78,7 +80,7 @@ namespace Shopping.Controllers
 
             CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
 
-            if (cartItem.Quantity > 1)
+            if (cartItem.Quantity >= 1)
             {
                 ++cartItem.Quantity;
             }
@@ -95,8 +97,8 @@ namespace Shopping.Controllers
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
-
-            return RedirectToAction("Index");
+			TempData["success"] = "Increase Item quantity to Cart Successfully";
+			return RedirectToAction("Index");
         }
         public async Task<IActionResult> Remove(int Id)
         {
@@ -106,18 +108,20 @@ namespace Shopping.Controllers
 
             if (cart.Count == 0)
             {
-                HttpContext.Session.Remove("Cart");
+                HttpContext.Session.Remove("Cart"); 
             }
             else
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
-            return RedirectToAction("Index");
+			TempData["success"] = "Remove Item quantity to Cart Successfully";
+			return RedirectToAction("Index");
         }
-        public async Task<IActionResult> Clear(int Id)
+        public async Task<IActionResult> Clear()
         {
             HttpContext.Session.Remove("Cart");
-            return RedirectToAction("Index");
+			TempData["success"] = "Clear Item quantity to Cart Successfully";
+			return RedirectToAction("Index");
         }
     }
 }

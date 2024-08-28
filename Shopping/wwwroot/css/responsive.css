@@ -127,7 +127,11 @@
 
 .header_top .col-sm-6:first-child{
 	display: inline-block;
-	float: left;
+	float: left
+
+
+
+
 }
 
 .header_top .col-sm-6:last-child{

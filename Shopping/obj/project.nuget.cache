@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PeUS92zACGnGnrkWafVralBormkmggd88rvucp/cACPn/+O3JmSMpCCg9MvPt5sA53JlR9+PExRwH+P4k47H0g==",
+  "dgSpecHash": "SH46GFSzLUMDOGGFKZ42Xt2XNsIJDnMvOVeEcngP8+SAVJm0AwgthyDji6qp4YbdmDxx8eoM6Ox8COAYrLC6mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thanh\\Downloads\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Winform-c5917e960e1c89043239e9a53ca69ceb6d2351f5\\Shopping\\Shopping.csproj",
+  "projectFilePath": "C:\\Users\\Thanh\\Downloads\\Shopping\\Shopping\\Shopping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thanh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Thanh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

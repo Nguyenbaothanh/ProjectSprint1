@@ -29,7 +29,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.MapControllerRoute(
+	name: "Areas",
+	pattern: "{area:exists}/{Controller=Product}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
