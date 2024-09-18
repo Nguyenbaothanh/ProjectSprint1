@@ -6,10 +6,10 @@ using Shopping_Tutorial.Repository;
 
 namespace Shopping_Tutorial.Areas.Admin.Controllers
 {
-	[Area("Admin")]
-	[Route("Admin/Brand")]
 
-	public class BrandController : Controller
+    [Route("Admin/Brand")]
+    [Area("Admin")]
+    public class BrandController : Controller
 	{
 		private readonly DataContext _dataContext;
 		public BrandController(DataContext context)
@@ -32,7 +32,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Create")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(BrandModel brand)
 		{
 			if (ModelState.IsValid)
@@ -77,7 +77,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Edit")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Edit(BrandModel brand)
 		{
 			if (ModelState.IsValid)

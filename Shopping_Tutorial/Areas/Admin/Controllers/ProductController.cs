@@ -7,10 +7,10 @@ using Shopping_Tutorial.Repository;
 
 namespace Shopping_Tutorial.Areas.Admin.Controllers
 {
-	[Area("Admin")]
+
 	[Route("Admin/Product")]
 	//[Authorize]
-	
+	[Area("Admin")]
 	public class ProductController : Controller
 	{
 		private readonly DataContext _dataContext;
@@ -39,7 +39,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Create")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(ProductModel product)
 		{
 			ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);
@@ -104,7 +104,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Edit")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Edit(ProductModel product)
 		{
 			ViewBag.Categories = new SelectList(_dataContext.Categories, "Id", "Name", product.CategoryId);

@@ -8,10 +8,10 @@ using Shopping_Tutorial.Repository;
 
 namespace Shopping_Tutorial.Areas.Admin.Controllers
 {
-	[Area("Admin")]
-	[Route("Admin/Category")]
 
-	public class CategoryController : Controller
+    [Route("Admin/Category")]
+    [Area("Admin")]
+    public class CategoryController : Controller
 	{
 		private readonly DataContext _dataContext;
 		public CategoryController(DataContext context)
@@ -34,7 +34,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Create")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(CategoryModel category)
 		{
 			if (ModelState.IsValid)
@@ -79,7 +79,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
 
 		[Route("Edit")]
 		[HttpPost]
-		//[ValidateAntiForgeryToken]
+		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Edit(CategoryModel category)
 		{
 			if (ModelState.IsValid)

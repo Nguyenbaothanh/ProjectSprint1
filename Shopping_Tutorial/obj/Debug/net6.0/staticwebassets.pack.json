@@ -465,8 +465,16 @@
       "PackagePath": "staticwebassets\\media\\products\\MacBook-air-m3.png"
     },
     {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\Samsung-Galaxy-Book-Pro-360-15-inch-Bronze-4.png",
+      "PackagePath": "staticwebassets\\media\\products\\Samsung-Galaxy-Book-Pro-360-15-inch-Bronze-4.png"
+    },
+    {
       "Id": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\Samsung-Galaxy-Book-Pro-360.png",
       "PackagePath": "staticwebassets\\media\\products\\Samsung-Galaxy-Book-Pro-360.png"
+    },
+    {
+      "Id": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\galaxy-book4-pro-16-inch-900x900.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\galaxy-book4-pro-16-inch-900x900.jpg"
     },
     {
       "Id": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\macbook-air-m3-15-inch-8gb-512gb.png",

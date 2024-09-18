@@ -15,17 +15,19 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.29" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.29">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.29" />
 		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<Folder Include="Areas\Admin\Data\" />
 		<Folder Include="Areas\Admin\Models\" />
+		<Folder Include="Views\Errors\" />
 		<Folder Include="wwwroot\backend\css\" />
 		<Folder Include="wwwroot\backend\images\" />
 		<Folder Include="wwwroot\media\products\" />

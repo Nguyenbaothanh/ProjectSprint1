@@ -30,6 +30,8 @@ namespace Shopping_Tutorial.Controllers
 				if (result.Succeeded)
 				{
 					TempData["success"] = "Đăng nhập thành công";
+					
+					
 					return Redirect(loginVM.ReturnUrl ?? "/");
 				}
 				ModelState.AddModelError("", "Sai tài khoản hặc mật khẩu");

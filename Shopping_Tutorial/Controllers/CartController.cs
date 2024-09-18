@@ -75,7 +75,7 @@ namespace Shopping_Tutorial.Controllers
 
         public async Task<IActionResult> Increase(int Id)
         {
-            List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
+            List<CartItemModel> cart = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
             CartItemModel cartItem = cart.Where(c => c.ProductId == Id).FirstOrDefault();
             if (cartItem.Quantity >= 1)
             {

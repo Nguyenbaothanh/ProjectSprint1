@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q8pSFVL5QnuiW5kJE8S4fnV0rEbb3v0IUiDOVSGCj0I=",
+  "Hash": "tWmDfWJ4VV9K83ADvAS8hbByWxYb/X9ajQ9gfgTfMQ0=",
   "Source": "Shopping_Tutorial",
   "BasePath": "_content/Shopping_Tutorial",
   "Mode": "Default",
@@ -1989,6 +1989,23 @@
       "OriginalItemSpec": "wwwroot\\media\\products\\7cebdbef-3694-49a9-a9f9-1bcdfe6abe7a_MacBookPro-2017-SpaceGray-1-2-600x600.jpg"
     },
     {
+      "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\galaxy-book4-pro-16-inch-900x900.jpg",
+      "SourceId": "Shopping_Tutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\",
+      "BasePath": "_content/Shopping_Tutorial",
+      "RelativePath": "media/products/galaxy-book4-pro-16-inch-900x900.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\galaxy-book4-pro-16-inch-900x900.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\MacBook-air-m3.png",
       "SourceId": "Shopping_Tutorial",
       "SourceType": "Discovered",
@@ -2106,6 +2123,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\products\\Samsung-Galaxy-Book-Pro-360.png"
+    },
+    {
+      "Identity": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\media\\products\\Samsung-Galaxy-Book-Pro-360-15-inch-Bronze-4.png",
+      "SourceId": "Shopping_Tutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thanh\\Downloads\\Shopping_Tutorial_Identity\\Shopping_Tutorial_Identity\\Shopping_Tutorial\\wwwroot\\",
+      "BasePath": "_content/Shopping_Tutorial",
+      "RelativePath": "media/products/Samsung-Galaxy-Book-Pro-360-15-inch-Bronze-4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\Samsung-Galaxy-Book-Pro-360-15-inch-Bronze-4.png"
     }
   ]
 }

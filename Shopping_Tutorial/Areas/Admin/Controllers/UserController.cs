@@ -8,10 +8,10 @@ using Shopping_Tutorial.Repository;
 
 namespace Shopping_Tutorial.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+
     [Route("Admin/User")]
     //[Authorize(Roles ="Admin,Publisher")]
-
+    [Area("Admin")]
     public class UserController : Controller
     {
         private readonly UserManager<AppUserModel> _userManager;
@@ -40,7 +40,7 @@ namespace Shopping_Tutorial.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         [Route("Create")]
         public async Task<IActionResult> Create(AppUserModel user)
         {

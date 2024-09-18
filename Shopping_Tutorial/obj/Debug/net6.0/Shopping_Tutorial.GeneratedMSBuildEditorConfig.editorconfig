@@ -16,18 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Thanh\Downloads\Shopping_Tutorial_Identity\Shopping_Tutorial_Identity\Shopping_Tutorial
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/AppRoles/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwUm9sZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/AppRoles/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwUm9sZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/AppRoles/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBwUm9sZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/Brand/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thanh/Downloads/Shopping_Tutorial_Identity/Shopping_Tutorial_Identity/Shopping_Tutorial/Areas/Admin/Views/Product/Create.cshtml]
